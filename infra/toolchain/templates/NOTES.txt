@@ -1,0 +1,1 @@
+{{ include "toolchain.name" .}} has been installed to {{.Release.Namespace}}
