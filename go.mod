@@ -1,8 +1,6 @@
 module github.com/desygner/desygner-toolchain
 
-go 1.23.0
-
-toolchain go1.24.0
+go 1.25.0
 
 require (
 	github.com/aws/aws-sdk-go-v2/service/cloudfront v1.46.3
@@ -16,7 +14,7 @@ require (
 	github.com/goravel/gin v1.3.3
 	github.com/modelcontextprotocol/go-sdk v0.8.0
 	github.com/slack-go/slack v0.17.3
-	github.com/stretchr/testify v1.10.0
+	github.com/stretchr/testify v1.11.1
 	go.uber.org/zap v1.21.0
 	google.golang.org/grpc v1.70.0
 )
@@ -122,7 +120,7 @@ require (
 	github.com/hashicorp/hcl v1.0.0 // indirect
 	github.com/jackc/pgpassfile v1.0.0 // indirect
 	github.com/jackc/pgservicefile v0.0.0-20240606120523-5a60cdf6a761 // indirect
-	github.com/jackc/pgx/v5 v5.7.2 // indirect
+	github.com/jackc/pgx/v5 v5.9.0 // indirect
 	github.com/jackc/puddle/v2 v2.2.2 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/jinzhu/now v1.1.5 // indirect
@@ -198,10 +196,10 @@ require (
 	golang.org/x/exp v0.0.0-20250106191152-7588d65b2ba8 // indirect
 	golang.org/x/net v0.34.0 // indirect
 	golang.org/x/oauth2 v0.24.0 // indirect
-	golang.org/x/sync v0.10.0 // indirect
+	golang.org/x/sync v0.17.0 // indirect
 	golang.org/x/sys v0.29.0 // indirect
 	golang.org/x/term v0.28.0 // indirect
-	golang.org/x/text v0.21.0 // indirect
+	golang.org/x/text v0.29.0 // indirect
 	golang.org/x/time v0.8.0 // indirect
 	google.golang.org/api v0.214.0 // indirect
 	google.golang.org/genproto v0.0.0-20241230172942-26aa7a208def // indirect
