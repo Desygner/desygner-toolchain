@@ -1,8 +1,6 @@
 module github.com/desygner/desygner-toolchain
 
-go 1.23.0
-
-toolchain go1.24.0
+go 1.25
 
 require (
 	github.com/aws/aws-sdk-go-v2/service/cloudfront v1.46.3
@@ -15,8 +13,8 @@ require (
 	github.com/goravel/framework v1.15.9
 	github.com/goravel/gin v1.3.3
 	github.com/modelcontextprotocol/go-sdk v0.8.0
-	github.com/slack-go/slack v0.17.3
-	github.com/stretchr/testify v1.10.0
+	github.com/slack-go/slack v0.23.1
+	github.com/stretchr/testify v1.11.1
 	go.uber.org/zap v1.21.0
 	google.golang.org/grpc v1.70.0
 )
